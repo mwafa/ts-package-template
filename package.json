@@ -1,0 +1,30 @@
+{
+  "name": "ts-package-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwafa/ts-package-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwafa/ts-package-template/issues"
+  },
+  "homepage": "https://github.com/mwafa/ts-package-template#readme",
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
